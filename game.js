@@ -78,9 +78,6 @@ function init() {
     drawBtn = document.getElementById("drawBtn");
     clearBtn = document.getElementById("clearBtn");
 
-    drawBtn.addEventListener("click", drawRect, false);
-
-    clearBtn.addEventListener("click", clearRect, false);
 
     player = new Player();
 
